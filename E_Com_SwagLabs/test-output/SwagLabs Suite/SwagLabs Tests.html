@@ -1,0 +1,236 @@
+<html>
+<head>
+<title>TestNG:  SwagLabs Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SwagLabs Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 10 11:54:59 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>41 seconds (41457 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithEmptyCredentials()'><b>verifyLoginWithEmptyCredentials</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br/>
+<a href="#Output-259319861" onClick='toggleBox("Output-259319861", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-259319861" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-259319861">
+Empty credentials correctly rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7eac9008</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyCheckoutWithoutPostalCode()'><b>verifyCheckoutWithoutPostalCode</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest<br/>
+<a href="#Output-25916650" onClick='toggleBox("Output-25916650", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-25916650" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-25916650">
+Missing postal code correctly rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@544fa968</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Product.ProductsTest.verifyProductsPage()'><b>verifyProductsPage</b><br>Test class: E_Com_SwagLabs_Product.ProductsTest<br/>
+<a href="#Output-99042020" onClick='toggleBox("Output-99042020", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-99042020" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-99042020">
+Products page displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Product.ProductsTest@3bd82cf5</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Product.ProductsTest.verifyProductsSortByPriceHighToLow()'><b>verifyProductsSortByPriceHighToLow</b><br>Test class: E_Com_SwagLabs_Product.ProductsTest<br/>
+<a href="#Output-806738808" onClick='toggleBox("Output-806738808", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-806738808" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-806738808">
+Price high-to-low sorting verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Product.ProductsTest@3bd82cf5</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyCheckoutWithoutLastName()'><b>verifyCheckoutWithoutLastName</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest<br/>
+<a href="#Output-1222590577" onClick='toggleBox("Output-1222590577", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1222590577" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1222590577">
+Missing last name correctly rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@544fa968</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyOrderCompletion()'><b>verifyOrderCompletion</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest<br/>
+<a href="#Output-858965925" onClick='toggleBox("Output-858965925", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-858965925" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-858965925">
+Order completed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@544fa968</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Product.ProductsTest.verifyProductCanBeRemovedFromCart()'><b>verifyProductCanBeRemovedFromCart</b><br>Test class: E_Com_SwagLabs_Product.ProductsTest<br/>
+<a href="#Output-1417413828" onClick='toggleBox("Output-1417413828", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1417413828" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1417413828">
+Product removed from cart successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>E_Com_SwagLabs_Product.ProductsTest@3bd82cf5</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br/>
+<a href="#Output-1151512955" onClick='toggleBox("Output-1151512955", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1151512955" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1151512955">
+Invalid login correctly rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7eac9008</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyCheckoutInformationPage()'><b>verifyCheckoutInformationPage</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest<br/>
+<a href="#Output-99295602" onClick='toggleBox("Output-99295602", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-99295602" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-99295602">
+Checkout Information page displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@544fa968</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyCheckoutWithValidData()'><b>verifyCheckoutWithValidData</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest<br/>
+<a href="#Output-124132186" onClick='toggleBox("Output-124132186", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-124132186" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-124132186">
+Valid checkout information accepted successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@544fa968</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Product.ProductsTest.verifyProductsSortByPriceLowToHigh()'><b>verifyProductsSortByPriceLowToHigh</b><br>Test class: E_Com_SwagLabs_Product.ProductsTest<br/>
+<a href="#Output-823343982" onClick='toggleBox("Output-823343982", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-823343982" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-823343982">
+Price low-to-high sorting verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Product.ProductsTest@3bd82cf5</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyCheckoutWithoutFirstName()'><b>verifyCheckoutWithoutFirstName</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest<br/>
+<a href="#Output-856047451" onClick='toggleBox("Output-856047451", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-856047451" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-856047451">
+Missing first name correctly rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@544fa968</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Product.ProductsTest.verifyProductCanBeAddedToCart()'><b>verifyProductCanBeAddedToCart</b><br>Test class: E_Com_SwagLabs_Product.ProductsTest<br/>
+<a href="#Output-1393198164" onClick='toggleBox("Output-1393198164", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1393198164" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1393198164">
+Product added to cart successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Product.ProductsTest@3bd82cf5</td></tr>
+</table><p>
+</body>
+</html>

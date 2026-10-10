@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Functional Suite">
+
+    <test name="Functional Test">
+
+        <parameter name="browser" value="chrome"/>
+        
+        <groups>
+            <run>
+                <include name="functional"/>
+            </run>
+        </groups>
+
+        <classes>
+        
+            <class name="E_Com_SwagLabs_Login.LoginTest"/>
+            <class name="E_Com_SwagLabs_Product.ProductsTest"/>
+            <class name="E_Com_SwagLabs_Checkout.CheckoutTest"/>
+        </classes>
+
+    </test>
+
+</suite>

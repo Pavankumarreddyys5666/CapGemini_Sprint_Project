@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [SwagLabs Cross Browser Suite]">
+  <listeners>
+    <listener class-name="Listeners.TestListener"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="Chrome Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="E_Com_SwagLabs_Checkout.CheckoutTest">
+        <methods>
+          <include name="verifyCheckoutInformationPage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- E_Com_SwagLabs_Checkout.CheckoutTest -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [SwagLabs Cross Browser Suite] -->

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Empty credentials correctly rejected]]>
+    </line>
+    <line>
+      <![CDATA[Invalid login correctly rejected]]>
+    </line>
+    <line>
+      <![CDATA[Product added to cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[Product removed from cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[Products page displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Price high-to-low sorting verified]]>
+    </line>
+    <line>
+      <![CDATA[Price low-to-high sorting verified]]>
+    </line>
+    <line>
+      <![CDATA[Checkout Information page displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Valid checkout information accepted successfully]]>
+    </line>
+    <line>
+      <![CDATA[Missing first name correctly rejected]]>
+    </line>
+    <line>
+      <![CDATA[Missing last name correctly rejected]]>
+    </line>
+    <line>
+      <![CDATA[Missing postal code correctly rejected]]>
+    </line>
+    <line>
+      <![CDATA[Order completed successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-10T11:54:59 IST" name="SwagLabs Suite" finished-at="2026-10-10T11:55:41 IST" duration-ms="41457">
+    <groups>
+      <group name="negative">
+        <method signature="CheckoutTest.verifyCheckoutWithoutFirstName()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" name="verifyCheckoutWithoutFirstName" class="E_Com_SwagLabs_Checkout.CheckoutTest"/>
+        <method signature="CheckoutTest.verifyCheckoutWithoutLastName()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" name="verifyCheckoutWithoutLastName" class="E_Com_SwagLabs_Checkout.CheckoutTest"/>
+        <method signature="CheckoutTest.verifyCheckoutWithoutPostalCode()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" name="verifyCheckoutWithoutPostalCode" class="E_Com_SwagLabs_Checkout.CheckoutTest"/>
+        <method signature="LoginTest.verifyLoginWithEmptyCredentials()[pri:0, instance:E_Com_SwagLabs_Login.LoginTest@7eac9008]" name="verifyLoginWithEmptyCredentials" class="E_Com_SwagLabs_Login.LoginTest"/>
+        <method signature="LoginTest.verifyLoginWithInvalidCredentials()[pri:0, instance:E_Com_SwagLabs_Login.LoginTest@7eac9008]" name="verifyLoginWithInvalidCredentials" class="E_Com_SwagLabs_Login.LoginTest"/>
+      </group> <!-- negative -->
+      <group name="functional">
+        <method signature="CheckoutTest.verifyCheckoutWithValidData()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" name="verifyCheckoutWithValidData" class="E_Com_SwagLabs_Checkout.CheckoutTest"/>
+        <method signature="CheckoutTest.verifyOrderCompletion()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" name="verifyOrderCompletion" class="E_Com_SwagLabs_Checkout.CheckoutTest"/>
+        <method signature="LoginTest.verifyLoginWithEmptyCredentials()[pri:0, instance:E_Com_SwagLabs_Login.LoginTest@7eac9008]" name="verifyLoginWithEmptyCredentials" class="E_Com_SwagLabs_Login.LoginTest"/>
+        <method signature="LoginTest.verifyLoginWithInvalidCredentials()[pri:0, instance:E_Com_SwagLabs_Login.LoginTest@7eac9008]" name="verifyLoginWithInvalidCredentials" class="E_Com_SwagLabs_Login.LoginTest"/>
+        <method signature="ProductsTest.verifyProductCanBeAddedToCart()[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" name="verifyProductCanBeAddedToCart" class="E_Com_SwagLabs_Product.ProductsTest"/>
+        <method signature="ProductsTest.verifyProductCanBeRemovedFromCart()[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" name="verifyProductCanBeRemovedFromCart" class="E_Com_SwagLabs_Product.ProductsTest"/>
+        <method signature="ProductsTest.verifyProductsSortByPriceHighToLow()[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" name="verifyProductsSortByPriceHighToLow" class="E_Com_SwagLabs_Product.ProductsTest"/>
+        <method signature="ProductsTest.verifyProductsSortByPriceLowToHigh()[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" name="verifyProductsSortByPriceLowToHigh" class="E_Com_SwagLabs_Product.ProductsTest"/>
+      </group> <!-- functional -->
+      <group name="system">
+        <method signature="CheckoutTest.verifyCheckoutInformationPage()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" name="verifyCheckoutInformationPage" class="E_Com_SwagLabs_Checkout.CheckoutTest"/>
+        <method signature="ProductsTest.verifyProductsPage()[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" name="verifyProductsPage" class="E_Com_SwagLabs_Product.ProductsTest"/>
+      </group> <!-- system -->
+      <group name="integration">
+        <method signature="CheckoutTest.verifyOrderCompletion()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" name="verifyOrderCompletion" class="E_Com_SwagLabs_Checkout.CheckoutTest"/>
+        <method signature="ProductsTest.verifyProductCanBeAddedToCart()[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" name="verifyProductCanBeAddedToCart" class="E_Com_SwagLabs_Product.ProductsTest"/>
+      </group> <!-- integration -->
+      <group name="smoke">
+        <method signature="CheckoutTest.verifyCheckoutInformationPage()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" name="verifyCheckoutInformationPage" class="E_Com_SwagLabs_Checkout.CheckoutTest"/>
+        <method signature="ProductsTest.verifyProductsPage()[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" name="verifyProductsPage" class="E_Com_SwagLabs_Product.ProductsTest"/>
+      </group> <!-- smoke -->
+      <group name="positive">
+        <method signature="CheckoutTest.verifyCheckoutWithValidData()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" name="verifyCheckoutWithValidData" class="E_Com_SwagLabs_Checkout.CheckoutTest"/>
+      </group> <!-- positive -->
+    </groups>
+    <test started-at="2026-10-10T11:54:59 IST" name="SwagLabs Tests" finished-at="2026-10-10T11:55:41 IST" duration-ms="41457">
+      <class name="E_Com_SwagLabs_Checkout.CheckoutTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" started-at="2026-10-10T11:55:23 IST" name="launchBrowser" finished-at="2026-10-10T11:55:25 IST" duration-ms="1734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyCheckoutInformationPage()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" started-at="2026-10-10T11:55:25 IST" name="verifyCheckoutInformationPage" finished-at="2026-10-10T11:55:26 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Checkout Information page displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutInformationPage -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" started-at="2026-10-10T11:55:26 IST" name="closeBrowser" finished-at="2026-10-10T11:55:26 IST" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckoutInformationPage status=SUCCESS method=CheckoutTest.verifyCheckoutInformationPage()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968] output=Checkout Information page displayed successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" started-at="2026-10-10T11:55:26 IST" name="launchBrowser" finished-at="2026-10-10T11:55:28 IST" duration-ms="1856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyCheckoutWithValidData()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" started-at="2026-10-10T11:55:28 IST" name="verifyCheckoutWithValidData" finished-at="2026-10-10T11:55:29 IST" duration-ms="998" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Valid checkout information accepted successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutWithValidData -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" started-at="2026-10-10T11:55:29 IST" name="closeBrowser" finished-at="2026-10-10T11:55:29 IST" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckoutWithValidData status=SUCCESS method=CheckoutTest.verifyCheckoutWithValidData()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968] output=Valid checkout information accepted successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" started-at="2026-10-10T11:55:29 IST" name="launchBrowser" finished-at="2026-10-10T11:55:31 IST" duration-ms="1541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyCheckoutWithoutFirstName()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" started-at="2026-10-10T11:55:31 IST" name="verifyCheckoutWithoutFirstName" finished-at="2026-10-10T11:55:32 IST" duration-ms="918" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Missing first name correctly rejected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutWithoutFirstName -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" started-at="2026-10-10T11:55:32 IST" name="closeBrowser" finished-at="2026-10-10T11:55:32 IST" duration-ms="213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckoutWithoutFirstName status=SUCCESS method=CheckoutTest.verifyCheckoutWithoutFirstName()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968] output=Missing first name correctly rejected]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" started-at="2026-10-10T11:55:32 IST" name="launchBrowser" finished-at="2026-10-10T11:55:34 IST" duration-ms="1960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyCheckoutWithoutLastName()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" started-at="2026-10-10T11:55:34 IST" name="verifyCheckoutWithoutLastName" finished-at="2026-10-10T11:55:35 IST" duration-ms="903" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Missing last name correctly rejected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutWithoutLastName -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" started-at="2026-10-10T11:55:35 IST" name="closeBrowser" finished-at="2026-10-10T11:55:35 IST" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckoutWithoutLastName status=SUCCESS method=CheckoutTest.verifyCheckoutWithoutLastName()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968] output=Missing last name correctly rejected]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" started-at="2026-10-10T11:55:35 IST" name="launchBrowser" finished-at="2026-10-10T11:55:37 IST" duration-ms="1941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyCheckoutWithoutPostalCode()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" started-at="2026-10-10T11:55:37 IST" name="verifyCheckoutWithoutPostalCode" finished-at="2026-10-10T11:55:38 IST" duration-ms="833" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Missing postal code correctly rejected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutWithoutPostalCode -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" started-at="2026-10-10T11:55:38 IST" name="closeBrowser" finished-at="2026-10-10T11:55:38 IST" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckoutWithoutPostalCode status=SUCCESS method=CheckoutTest.verifyCheckoutWithoutPostalCode()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968] output=Missing postal code correctly rejected]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" started-at="2026-10-10T11:55:38 IST" name="launchBrowser" finished-at="2026-10-10T11:55:39 IST" duration-ms="1622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyOrderCompletion()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" started-at="2026-10-10T11:55:39 IST" name="verifyOrderCompletion" finished-at="2026-10-10T11:55:40 IST" duration-ms="1032" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Order completed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyOrderCompletion -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968]" started-at="2026-10-10T11:55:40 IST" name="closeBrowser" finished-at="2026-10-10T11:55:41 IST" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyOrderCompletion status=SUCCESS method=CheckoutTest.verifyOrderCompletion()[pri:0, instance:E_Com_SwagLabs_Checkout.CheckoutTest@544fa968] output=Order completed successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- E_Com_SwagLabs_Checkout.CheckoutTest -->
+      <class name="E_Com_SwagLabs_Product.ProductsTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" started-at="2026-10-10T11:55:06 IST" name="launchBrowser" finished-at="2026-10-10T11:55:08 IST" duration-ms="1552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyProductCanBeAddedToCart()[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" started-at="2026-10-10T11:55:08 IST" name="verifyProductCanBeAddedToCart" finished-at="2026-10-10T11:55:08 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product added to cart successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductCanBeAddedToCart -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" started-at="2026-10-10T11:55:08 IST" name="closeBrowser" finished-at="2026-10-10T11:55:09 IST" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductCanBeAddedToCart status=SUCCESS method=ProductsTest.verifyProductCanBeAddedToCart()[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5] output=Product added to cart successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" started-at="2026-10-10T11:55:09 IST" name="launchBrowser" finished-at="2026-10-10T11:55:10 IST" duration-ms="1598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyProductCanBeRemovedFromCart()[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" started-at="2026-10-10T11:55:10 IST" name="verifyProductCanBeRemovedFromCart" finished-at="2026-10-10T11:55:16 IST" duration-ms="5576" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product removed from cart successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductCanBeRemovedFromCart -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" started-at="2026-10-10T11:55:16 IST" name="closeBrowser" finished-at="2026-10-10T11:55:16 IST" duration-ms="239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductCanBeRemovedFromCart status=SUCCESS method=ProductsTest.verifyProductCanBeRemovedFromCart()[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5] output=Product removed from cart successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" started-at="2026-10-10T11:55:16 IST" name="launchBrowser" finished-at="2026-10-10T11:55:18 IST" duration-ms="1775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyProductsPage()[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" started-at="2026-10-10T11:55:18 IST" name="verifyProductsPage" finished-at="2026-10-10T11:55:18 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Products page displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductsPage -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" started-at="2026-10-10T11:55:18 IST" name="closeBrowser" finished-at="2026-10-10T11:55:18 IST" duration-ms="208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductsPage status=SUCCESS method=ProductsTest.verifyProductsPage()[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5] output=Products page displayed successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" started-at="2026-10-10T11:55:18 IST" name="launchBrowser" finished-at="2026-10-10T11:55:20 IST" duration-ms="1458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyProductsSortByPriceHighToLow()[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" started-at="2026-10-10T11:55:20 IST" name="verifyProductsSortByPriceHighToLow" finished-at="2026-10-10T11:55:21 IST" duration-ms="657" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Price high-to-low sorting verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductsSortByPriceHighToLow -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" started-at="2026-10-10T11:55:21 IST" name="closeBrowser" finished-at="2026-10-10T11:55:21 IST" duration-ms="217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductsSortByPriceHighToLow status=SUCCESS method=ProductsTest.verifyProductsSortByPriceHighToLow()[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5] output=Price high-to-low sorting verified]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" started-at="2026-10-10T11:55:21 IST" name="launchBrowser" finished-at="2026-10-10T11:55:23 IST" duration-ms="1737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyProductsSortByPriceLowToHigh()[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" started-at="2026-10-10T11:55:23 IST" name="verifyProductsSortByPriceLowToHigh" finished-at="2026-10-10T11:55:23 IST" duration-ms="587" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Price low-to-high sorting verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductsSortByPriceLowToHigh -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5]" started-at="2026-10-10T11:55:23 IST" name="closeBrowser" finished-at="2026-10-10T11:55:23 IST" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductsSortByPriceLowToHigh status=SUCCESS method=ProductsTest.verifyProductsSortByPriceLowToHigh()[pri:0, instance:E_Com_SwagLabs_Product.ProductsTest@3bd82cf5] output=Price low-to-high sorting verified]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- E_Com_SwagLabs_Product.ProductsTest -->
+      <class name="E_Com_SwagLabs_Login.LoginTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:E_Com_SwagLabs_Login.LoginTest@7eac9008]" started-at="2026-10-10T11:54:59 IST" name="launchBrowser" finished-at="2026-10-10T11:55:03 IST" duration-ms="3461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginWithEmptyCredentials()[pri:0, instance:E_Com_SwagLabs_Login.LoginTest@7eac9008]" started-at="2026-10-10T11:55:03 IST" name="verifyLoginWithEmptyCredentials" finished-at="2026-10-10T11:55:03 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Empty credentials correctly rejected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithEmptyCredentials -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:E_Com_SwagLabs_Login.LoginTest@7eac9008]" started-at="2026-10-10T11:55:03 IST" name="closeBrowser" finished-at="2026-10-10T11:55:03 IST" duration-ms="234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithEmptyCredentials status=SUCCESS method=LoginTest.verifyLoginWithEmptyCredentials()[pri:0, instance:E_Com_SwagLabs_Login.LoginTest@7eac9008] output=Empty credentials correctly rejected]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:E_Com_SwagLabs_Login.LoginTest@7eac9008]" started-at="2026-10-10T11:55:03 IST" name="launchBrowser" finished-at="2026-10-10T11:55:06 IST" duration-ms="2340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:0, instance:E_Com_SwagLabs_Login.LoginTest@7eac9008]" started-at="2026-10-10T11:55:06 IST" name="verifyLoginWithInvalidCredentials" finished-at="2026-10-10T11:55:06 IST" duration-ms="432" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid login correctly rejected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:E_Com_SwagLabs_Login.LoginTest@7eac9008]" started-at="2026-10-10T11:55:06 IST" name="closeBrowser" finished-at="2026-10-10T11:55:06 IST" duration-ms="188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithInvalidCredentials status=SUCCESS method=LoginTest.verifyLoginWithInvalidCredentials()[pri:0, instance:E_Com_SwagLabs_Login.LoginTest@7eac9008] output=Invalid login correctly rejected]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- E_Com_SwagLabs_Login.LoginTest -->
+    </test> <!-- SwagLabs Tests -->
+  </suite> <!-- SwagLabs Suite -->
+</testng-results>

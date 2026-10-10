@@ -1,0 +1,607 @@
+<html>
+<head>
+<title>TestNG:  All Login Product Checkout Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>All Login Product Checkout Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>48/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 09 19:51:48 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>176 seconds (176541 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyCheckoutWithInvalidData()'><b>verifyCheckoutWithInvalidData</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest<br>Parameters: Brahma, K, <br/>
+<a href="#Output-810425934" onClick='toggleBox("Output-810425934", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-810425934" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-810425934">
+Missing checkout information correctly rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@7bedc48a</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Product.ProductsTest.verifyProductsPageWithInvalidLogin()'><b>verifyProductsPageWithInvalidLogin</b><br>Test class: E_Com_SwagLabs_Product.ProductsTest<br/>
+<a href="#Output-93720343" onClick='toggleBox("Output-93720343", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-93720343" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-93720343">
+Invalid login correctly rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Product.ProductsTest@6c40365c</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Product.ProductsTest.verifyProductsSortByNameZToA()'><b>verifyProductsSortByNameZToA</b><br>Test class: E_Com_SwagLabs_Product.ProductsTest<br/>
+<a href="#Output-1842537555" onClick='toggleBox("Output-1842537555", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1842537555" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1842537555">
+Name Z-to-A sorting verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Product.ProductsTest@6c40365c</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Product.ProductsTest.verifyProductInformation()'><b>verifyProductInformation</b><br>Test class: E_Com_SwagLabs_Product.ProductsTest<br/>
+<a href="#Output-1149892111" onClick='toggleBox("Output-1149892111", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1149892111" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1149892111">
+Product information verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Product.ProductsTest@6c40365c</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Product.ProductsTest.verifyProductsSortByPriceLowToHigh()'><b>verifyProductsSortByPriceLowToHigh</b><br>Test class: E_Com_SwagLabs_Product.ProductsTest<br/>
+<a href="#Output-365999192" onClick='toggleBox("Output-365999192", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-365999192" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-365999192">
+Price low-to-high sorting verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Product.ProductsTest@6c40365c</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithEmptyPassword()'><b>verifyLoginWithEmptyPassword</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br/>
+<a href="#Output-1853422837" onClick='toggleBox("Output-1853422837", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1853422837" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1853422837">
+Empty password correctly rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLockedOutUserLogin()'><b>verifyLockedOutUserLogin</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br/>
+<a href="#Output-1650332494" onClick='toggleBox("Output-1650332494", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1650332494" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1650332494">
+Locked-out user correctly rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br>Parameters: "    ", secret_sauce<br/>
+<a href="#Output-530402062" onClick='toggleBox("Output-530402062", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-530402062" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-530402062">
+Invalid login data rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br>Parameters: , secret_sauce<br/>
+<a href="#Output-756126725" onClick='toggleBox("Output-756126725", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-756126725" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-756126725">
+Invalid login data rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-1546727972" onClick='toggleBox("Output-1546727972", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1546727972" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1546727972">
+Valid login successful<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyCheckoutWithValidData()'><b>verifyCheckoutWithValidData</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest<br>Parameters: Anil, Sharma, 500001</td>
+<td></td>
+<td>9</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@7bedc48a</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyCheckoutWithInvalidData()'><b>verifyCheckoutWithInvalidData</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest<br>Parameters: 123685966, 785965, 741852<br/>
+<a href="#Output-2131361552" onClick='toggleBox("Output-2131361552", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2131361552" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2131361552">
+Checkout proceeded because all required fields were populated<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@7bedc48a</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Product.ProductsTest.verifyInvalidProductDetails()'><b>verifyInvalidProductDetails</b><br>Test class: E_Com_SwagLabs_Product.ProductsTest<br/>
+<a href="#Output-366370767" onClick='toggleBox("Output-366370767", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-366370767" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-366370767">
+Product details page behavior verified for the supplied URL<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Product.ProductsTest@6c40365c</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyOrderCompletion()'><b>verifyOrderCompletion</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest</td>
+<td></td>
+<td>8</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@7bedc48a</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithEmptyFields()'><b>verifyLoginWithEmptyFields</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br/>
+<a href="#Output-861522296" onClick='toggleBox("Output-861522296", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-861522296" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-861522296">
+Empty fields correctly rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyCheckoutWithValidData()'><b>verifyCheckoutWithValidData</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest<br>Parameters: Rahul, Kumar, 560001</td>
+<td></td>
+<td>9</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@7bedc48a</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyCheckoutWithInvalidData()'><b>verifyCheckoutWithInvalidData</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest<br>Parameters: Brahma, 85239, 412001<br/>
+<a href="#Output-1535875885" onClick='toggleBox("Output-1535875885", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1535875885" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1535875885">
+Checkout proceeded because all required fields were populated<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@7bedc48a</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br>Parameters: standard_user, <br/>
+<a href="#Output-1677115089" onClick='toggleBox("Output-1677115089", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1677115089" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1677115089">
+Invalid login data rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithEmptyUsername()'><b>verifyLoginWithEmptyUsername</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br/>
+<a href="#Output-1186989416" onClick='toggleBox("Output-1186989416", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1186989416" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1186989416">
+Empty username correctly rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Product.ProductsTest.verifyProductsPage()'><b>verifyProductsPage</b><br>Test class: E_Com_SwagLabs_Product.ProductsTest<br/>
+<a href="#Output-1996620584" onClick='toggleBox("Output-1996620584", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1996620584" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1996620584">
+Products page displayed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Product.ProductsTest@6c40365c</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyCheckoutWithValidData()'><b>verifyCheckoutWithValidData</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest<br>Parameters: Virat, Kohli, 520369</td>
+<td></td>
+<td>9</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@7bedc48a</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br>Parameters: Brahma, Bt467<br/>
+<a href="#Output-1294361489" onClick='toggleBox("Output-1294361489", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1294361489" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1294361489">
+Invalid login data rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginButtonFunctionality()'><b>verifyLoginButtonFunctionality</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br/>
+<a href="#Output-1441243996" onClick='toggleBox("Output-1441243996", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1441243996" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1441243996">
+Login button verified<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyCheckoutWithValidData()'><b>verifyCheckoutWithValidData</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest<br>Parameters: Brahma, K, 515001</td>
+<td></td>
+<td>9</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@7bedc48a</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Product.ProductsTest.verifyMissingProductInformation()'><b>verifyMissingProductInformation</b><br>Test class: E_Com_SwagLabs_Product.ProductsTest<br/>
+<a href="#Output-2124645278" onClick='toggleBox("Output-2124645278", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2124645278" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2124645278">
+Product names and prices are displayed correctly<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Product.ProductsTest@6c40365c</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br>Parameters: standard_user, " "<br/>
+<a href="#Output-945683299" onClick='toggleBox("Output-945683299", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-945683299" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-945683299">
+Invalid login data rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginPageElements()'><b>verifyLoginPageElements</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br/>
+<a href="#Output-1513029997" onClick='toggleBox("Output-1513029997", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1513029997" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1513029997">
+Login page elements verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Product.ProductsTest.verifyProductDetails()'><b>verifyProductDetails</b><br>Test class: E_Com_SwagLabs_Product.ProductsTest<br/>
+<a href="#Output-1123649342" onClick='toggleBox("Output-1123649342", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1123649342" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1123649342">
+Product details verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Product.ProductsTest@6c40365c</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyCheckoutWithValidData()'><b>verifyCheckoutWithValidData</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest<br>Parameters: Royal, Challengers, 583101</td>
+<td></td>
+<td>9</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@7bedc48a</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Product.ProductsTest.verifyProductNotAddedToCart()'><b>verifyProductNotAddedToCart</b><br>Test class: E_Com_SwagLabs_Product.ProductsTest<br/>
+<a href="#Output-625088521" onClick='toggleBox("Output-625088521", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-625088521" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-625088521">
+Cart is empty before adding a product<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>E_Com_SwagLabs_Product.ProductsTest@6c40365c</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyPasswordFieldAcceptsPassword()'><b>verifyPasswordFieldAcceptsPassword</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br/>
+<a href="#Output-1188100252" onClick='toggleBox("Output-1188100252", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1188100252" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1188100252">
+Password field verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyCheckoutInformationPage()'><b>verifyCheckoutInformationPage</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest</td>
+<td></td>
+<td>5</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@7bedc48a</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br>Parameters: locked_out_user, secret_sauce<br/>
+<a href="#Output-23737789" onClick='toggleBox("Output-23737789", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-23737789" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-23737789">
+Invalid login data rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyUsernameFieldAcceptsValidUsername()'><b>verifyUsernameFieldAcceptsValidUsername</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br/>
+<a href="#Output-706631622" onClick='toggleBox("Output-706631622", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-706631622" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-706631622">
+Username field verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Product.ProductsTest.verifyProductsSortByPriceHighToLow()'><b>verifyProductsSortByPriceHighToLow</b><br>Test class: E_Com_SwagLabs_Product.ProductsTest<br/>
+<a href="#Output-1706407405" onClick='toggleBox("Output-1706407405", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1706407405" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1706407405">
+Price high-to-low sorting verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Product.ProductsTest@6c40365c</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyCheckoutWithInvalidData()'><b>verifyCheckoutWithInvalidData</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest<br>Parameters: vinay, verma, Amnjih<br/>
+<a href="#Output-148802311" onClick='toggleBox("Output-148802311", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-148802311" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-148802311">
+Checkout proceeded because all required fields were populated<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@7bedc48a</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Product.ProductsTest.verifySortingFailure()'><b>verifySortingFailure</b><br>Test class: E_Com_SwagLabs_Product.ProductsTest<br/>
+<a href="#Output-1410897862" onClick='toggleBox("Output-1410897862", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1410897862" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1410897862">
+Sorting validation completed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Product.ProductsTest@6c40365c</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br>Parameters: problem_user, secret_sauce<br/>
+<a href="#Output-1468685544" onClick='toggleBox("Output-1468685544", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1468685544" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1468685544">
+Valid login successful<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyCheckoutWithInvalidData()'><b>verifyCheckoutWithInvalidData</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest<br>Parameters: , K, 515001<br/>
+<a href="#Output-327575653" onClick='toggleBox("Output-327575653", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-327575653" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-327575653">
+Missing checkout information correctly rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@7bedc48a</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br>Parameters: performance_glitch_user, secret_sauce<br/>
+<a href="#Output-1186663391" onClick='toggleBox("Output-1186663391", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1186663391" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1186663391">
+Valid login successful<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br>Parameters: "          ", "      "<br/>
+<a href="#Output-190550835" onClick='toggleBox("Output-190550835", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-190550835" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-190550835">
+Invalid login data rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br>Parameters: qwet, 74859<br/>
+<a href="#Output-864210792" onClick='toggleBox("Output-864210792", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-864210792" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-864210792">
+Invalid login data rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithInvalidCredentials()'><b>verifyLoginWithInvalidCredentials</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br>Parameters: 7412, Brthjud<br/>
+<a href="#Output-1690796457" onClick='toggleBox("Output-1690796457", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1690796457" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1690796457">
+Invalid login data rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br>Parameters: visual_user, secret_sauce<br/>
+<a href="#Output-1472633143" onClick='toggleBox("Output-1472633143", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1472633143" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1472633143">
+Valid login successful<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Checkout.CheckoutTest.verifyCheckoutWithInvalidData()'><b>verifyCheckoutWithInvalidData</b><br>Test class: E_Com_SwagLabs_Checkout.CheckoutTest<br>Parameters: Brahma, , 518001<br/>
+<a href="#Output-1082987260" onClick='toggleBox("Output-1082987260", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1082987260" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1082987260">
+Missing checkout information correctly rejected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Checkout.CheckoutTest@7bedc48a</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Product.ProductsTest.verifyProductCanBeAddedToCart()'><b>verifyProductCanBeAddedToCart</b><br>Test class: E_Com_SwagLabs_Product.ProductsTest<br/>
+<a href="#Output-1394241900" onClick='toggleBox("Output-1394241900", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1394241900" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1394241900">
+Product added to cart successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Product.ProductsTest@6c40365c</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Product.ProductsTest.verifyProductsSortByNameAToZ()'><b>verifyProductsSortByNameAToZ</b><br>Test class: E_Com_SwagLabs_Product.ProductsTest<br/>
+<a href="#Output-648660703" onClick='toggleBox("Output-648660703", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-648660703" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-648660703">
+Name A-to-Z sorting verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>E_Com_SwagLabs_Product.ProductsTest@6c40365c</td></tr>
+<tr>
+<td title='E_Com_SwagLabs_Login.LoginTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: E_Com_SwagLabs_Login.LoginTest<br>Parameters: error_user, secret_sauce<br/>
+<a href="#Output-22515625" onClick='toggleBox("Output-22515625", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22515625" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22515625">
+Valid login successful<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>E_Com_SwagLabs_Login.LoginTest@7c6908d7</td></tr>
+</table><p>
+</body>
+</html>
